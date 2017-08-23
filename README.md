@@ -1,9 +1,11 @@
-Steps of running code
+# Steps of running code
 
 # 0. Git clone the code
 
 git clone https://github.com/NVIDIAAICITYCHALLENGE/AICity_SunyAlbany.git
+
 cd AICity_SunyAlbany
+
 export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 
 # 1. Preparing Inputs (datasets)
@@ -69,14 +71,17 @@ model.ckpt-${CHECKPOINT_NUMBER}.meta
 After you've identified a candidate checkpoint to export, run the following command from tensorflow/models/object_detection:
 
 From tensorflow/models
+
 python object_detection/export_inference_graph \
     --input_type image_tensor \
     --pipeline_config_path ${PIPELINE_CONFIG_PATH} \
     --checkpoint_path model.ckpt-${CHECKPOINT_NUMBER} \
     --inference_graph_path aic_inference_graph.pb
+    
 Afterwards, you should see a graph named aic_inference_graph.pb.
 
 # 5. inference test set
 
-From object_detection, change your test dataset and output direction 
+From object_detection, change your test dataset and output direction
+
 python nVidia_images_inference.py   
