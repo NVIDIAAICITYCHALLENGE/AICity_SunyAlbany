@@ -1,0 +1,74 @@
+item {
+  id: 1
+  name: 'DontCare'
+}
+
+item {
+  id: 2
+  name: 'Car'
+}
+
+item {
+  id: 3
+  name: 'SUV'
+}
+
+item {
+  id: 4
+  name: 'SmallTruck'
+}
+
+item {
+  id: 5
+  name: 'MediumTruck'
+}
+
+item {
+  id: 6
+  name: 'LargeTruck'
+}
+
+item {
+  id: 7
+  name: 'Pedestrian'
+}
+
+item {
+  id: 8
+  name: 'Bus'
+}
+
+item {
+  id: 9
+  name: 'Van'
+}
+
+item {
+  id: 10
+  name: 'GroupOfPeople'
+}
+
+item {
+  id: 11
+  name: 'Bicycle'
+}
+
+item {
+  id: 12
+  name: 'Motorcycle'
+}
+
+item {
+  id: 13
+  name: 'TrafficSignal-Green'
+}
+
+item {
+  id: 14
+  name: 'TrafficSignal-Yellow'
+}
+
+item {
+  id: 15
+  name: 'TrafficSignal-Red'
+}
