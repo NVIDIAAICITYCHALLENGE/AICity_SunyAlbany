@@ -81,6 +81,7 @@ python object_detection/export_inference_graph \
     --inference_graph_path aic_inference_graph.pb
     
 Afterwards, you should see a graph named aic_inference_graph.pb.
+You can download our trained model from https://www.dropbox.com/s/nnbt8r2c470ylq1/aic_inference_model.pb?dl=0
 
 # 5. inference test set
 
